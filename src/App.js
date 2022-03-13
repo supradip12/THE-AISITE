@@ -1,24 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Blog from "./containers/blog/Blog";
+import Feature from "./containers/feature/Feature";
+import Footer from "./containers/footer/Footer";
+import Header from "./containers/header/Header";
+import Possibility from "./containers/possibility/Possibility";
+import WhatGPT from "./containers/whatGPT3/WhatGPT";
+import { Cta, Brand, Navbar } from './components';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+       <div className="App">
+         <div className="gradient__bg">
+           <Navbar/>
+           <Header/>
+           </div>
+           <Brand/>
+           <WhatGPT/>
+           <Feature/>
+           <Possibility/>
+           <Cta/>
+           <Blog/>
+           <Footer/>
+
+         </div>
+      </Router>
+    </>
+   
   );
 }
 
