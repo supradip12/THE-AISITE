@@ -1,11 +1,6 @@
 import './App.css';
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+
 import Blog from "./containers/blog/Blog";
 import Feature from "./containers/feature/Feature";
 import Footer from "./containers/footer/Footer";
