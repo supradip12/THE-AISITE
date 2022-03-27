@@ -12,7 +12,7 @@ import { Cta, Brand, Navbar } from './components';
 function App() {
   return (
     <>
-      <Router>
+      
        <div className="App">
          <div className="gradient__bg">
            <Navbar/>
@@ -27,7 +27,7 @@ function App() {
            <Footer/>
 
          </div>
-      </Router>
+    
     </>
    
   );
