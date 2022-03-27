@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/The-AISITE/static/css/main.5118b21e.css",
+    "main.js": "/The-AISITE/static/js/main.f4bef388.js",
+    "static/media/ai.png": "/The-AISITE/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/The-AISITE/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/blog01.png": "/The-AISITE/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/blog03.png": "/The-AISITE/static/media/blog03.d922323861096f25274f.png",
+    "static/media/blog04.png": "/The-AISITE/static/media/blog04.742c1357e7b6c11078e6.png",
+    "static/media/blog05.png": "/The-AISITE/static/media/blog05.bfaa1c1e3851158e0e1f.png",
+    "static/media/blog02.png": "/The-AISITE/static/media/blog02.ab0eb367561796e91532.png",
+    "static/media/people.png": "/The-AISITE/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/The-AISITE/static/media/logo.16efaf42dda438e5346df59725d9e6a6.svg",
+    "index.html": "/The-AISITE/index.html",
+    "main.5118b21e.css.map": "/The-AISITE/static/css/main.5118b21e.css.map",
+    "main.f4bef388.js.map": "/The-AISITE/static/js/main.f4bef388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5118b21e.css",
+    "static/js/main.f4bef388.js"
+  ]
+}
